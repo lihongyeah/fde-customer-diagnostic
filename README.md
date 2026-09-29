@@ -44,3 +44,13 @@ python3 "$HOME/.codex/skills/.system/skill-creator/scripts/quick_validate.py" "$
 ```
 
 静态校验只证明结构和元数据有效；具体客户诊断仍须用实际访谈、配对样本和客户确认来验收。
+
+## English overview
+
+**FDE Customer Diagnostic** is a Codex skill for turning client interviews and real workflow evidence into three practical deliverables: an as-is workflow diagnosis, a narrowly scoped first pilot, and a verifiable acceptance checklist.
+
+It traces the actual inputs, decisions, handoffs, exceptions, and rework before recommending automation. It distinguishes confirmed facts from interview claims and hypotheses, separates deterministic rules from AI-assisted judgment and human approval, and favors paired source files and human-approved outcomes for pilot evaluation. Without those samples, a baseline, or permission to use the data, it produces a validation plan—not claims about accuracy, ROI, or full automation.
+
+Use it for client discovery and pilot design, not to access client systems, publish client information, or deploy a solution without authorization. Example prompt:
+
+> Use `$fde-customer-diagnostic` to turn these interview notes into a workflow diagnosis, a first-pilot scope, and an acceptance checklist. Label facts, assumptions, and open questions separately.
