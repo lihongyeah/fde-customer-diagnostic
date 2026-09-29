@@ -1,6 +1,6 @@
 ---
 name: fde-customer-diagnostic
-description: 将客户访谈、流程材料和真实样本整理成 FDE 视角的现状工作流诊断、首期低风险试点范围与可核验的验收清单。适用于售前发现和试点设计；不代替工具选型调研或授权实施。
+description: "将客户访谈、流程材料和真实样本整理成 FDE 视角的工作流诊断、首期试点范围与验收清单。Turn client interviews and real workflow evidence into an FDE-style diagnosis, a narrowly scoped pilot, and a verifiable acceptance checklist. For discovery and pilot design, not unauthorized deployment."
 ---
 
 # FDE 客户诊断
