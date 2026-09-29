@@ -1,0 +1,4 @@
+interface:
+  display_name: "FDE 客户诊断"
+  short_description: "从客户访谈形成工作流诊断、首期试点与验收清单"
+  default_prompt: "使用 $fde-customer-diagnostic，把以下客户访谈整理成工作流诊断、首期试点范围和验收清单。"
